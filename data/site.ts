@@ -16,7 +16,7 @@ export const profile = {
     { label: "ML/RAG Demos", value: "1" },
     { label: "Hackathons", value: "2" }
   ],
-  cv: "/images/cv.pdf"
+  cv: "/cv.pdf"
 };
 
 export const blurb = "I build user-friendly apps and practical AI solutions — LLMs, Retrieval-Augmented Generation (RAG) with FAISS/LangChain, FastAPI services, and React frontends. My focus is on shipping fast, iterating often, and keeping things simple yet effective.";
