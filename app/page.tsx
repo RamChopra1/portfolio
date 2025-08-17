@@ -19,7 +19,7 @@ export default function Home() {
       {/* Desktop Layout: Fixed Sidebar + Main Content */}
       <div className="flex flex-col lg:flex-row">
         {/* Fixed Sidebar - Desktop */}
-        <div className="hidden lg:block w-1/3 fixed left-0 top-0 h-screen overflow-y-auto bg-[#000000] border-r border-[#1f1f1f]">
+        <div className="hidden lg:block w-[33.333333%] fixed left-0 top-0 h-screen overflow-y-auto bg-[#000000] border-r border-[#1f1f1f]">
           <div className="p-8">
             <SidebarCard />
           </div>
@@ -33,7 +33,7 @@ export default function Home() {
         </div>
         
         {/* Main Content Area */}
-        <div className="w-full lg:ml-1/3 min-h-screen">
+        <div className="w-full lg:ml-[33.333333%] min-h-screen">
           <div className="max-w-4xl mx-auto px-4 py-6 sm:px-6 sm:py-12 lg:px-12 lg:py-16">
             <div className="space-y-8 sm:space-y-12 lg:space-y-16">
               {/* Hero */}
